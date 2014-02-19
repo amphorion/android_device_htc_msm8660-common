@@ -93,6 +93,10 @@ TARGET_USES_POST_PROCESSING := true
 BOARD_EGL_CFG := device/htc/msm8660-common/configs/egl.cfg
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 
+# QCOM BSP (Board Support Package)
+TARGET_USES_QCOM_BSP := true
+COMMON_GLOBAL_CFLAGS += -DQCOM_BSP
+
 # Bootanimation
 TARGET_BOOTANIMATION_PRELOAD := true
 
