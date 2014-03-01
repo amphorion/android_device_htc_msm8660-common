@@ -85,6 +85,7 @@ PRODUCT_PACKAGES += \
     libOmxAmrEnc
 
 PRODUCT_PACKAGES += \
+    camera.msm8660 \
     libnetcmdiface \
     libsurfaceflinger_client
 
